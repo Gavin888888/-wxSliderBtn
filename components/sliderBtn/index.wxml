@@ -1,0 +1,8 @@
+ <movable-area class="content" style="width:{{area_width}}%;">
+ 	<view style="width:{{coord+30}}px;background:linear-gradient(93deg,rgba(255,172,172,1) 0%,rgba(246,119,120,1) 100%);height: 100%;position: absolute;left: 0px;top: 0px;right: 0px;bottom: 0px;">
+ 	</view>
+ 	<view style="z-index:100;color:#ffffff;">拖动滑块验证</view>
+ 	<movable-view class='box' style='width:{{box_width}}px;z-index:101;' friction="{{100}}" direction="horizontal" x="{{x}}" damping="{{500}}" bindchange="drag" bindtouchend="dragOver">
+ 		<view class="{{isArriveRight ? 'movable-icon-success': 'movable-icon'}}"></view>
+ 	</movable-view>
+ </movable-area>

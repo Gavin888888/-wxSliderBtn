@@ -1,0 +1,13 @@
+{
+  "pages": [
+    "pages/index/avatar"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "slider",
+    "navigationBarTextStyle": "black"
+  },
+
+  "sitemapLocation": "sitemap.json"
+}
